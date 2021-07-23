@@ -3,7 +3,17 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 a {
   color: red;
+  text-decoration: none;
   &:hover {
     color: blue;
   }
+}
+
+.quote {
+  border-left: solid gray;
+  padding: 8px;
+}
+
+.coach {
+  background-color: #FFFFE0;
 }

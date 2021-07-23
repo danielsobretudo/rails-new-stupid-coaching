@@ -1,3 +1,12 @@
-<h1>hi!</h1>
-<p><%= @answer %></p>
+<h1>Stupid Coaching</h1>
+<div class="quote you">
+  <p><%= @question %></p>
+  <p><em>- You</em></p>
+</div>
+<br>
+<div class="quote coach">
+  <p><%= @answer %></p>
+  <p><em>- Your coach</em></p>
+</div>
+<br>
 <%= link_to 'Ask a new question', ask_path %>
